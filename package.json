@@ -1,0 +1,16 @@
+{
+  "name": "playlog-api",
+  "version": "2.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "seed:sql": "node scripts/generate-catalog-seed.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
